@@ -1,0 +1,92 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+html{
+    font-size: 16px;
+  }
+  /* Selector de etiqueta */
+  body{
+    font-family: 'Raleway', sans-serif;
+  }
+  p{
+    font-size: 1rem;
+    font-weight: 300;
+    color: #2e2e2e;
+  }
+  section{
+    margin-top: 5rem;
+  }
+
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing:40px;
+    background-color: whitesmoke;
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border:solid 1px grey;
+    border-spacing: 0;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+ }
+ footer {
+  background-color:#006d77;
+  width: 100%;
+  color: #edf6f9;
+  padding: 1rem 0rem 1rem 0rem;
+  margin-top: 5rem;
+  text-align: center;
+}
+  /* Selector de clase */
+  .container{
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+  .center{
+     text-align: center;   
+  }
+  .card{
+    border: 1px solid #000;
+    background-color: #83c5be;
+    padding: 1rem 2rem 2rem 2rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+  }
+  /*Selector de id*/
+  #menu{
+    padding: 2rem;
+    border: 1px solid #dadce0;
+    background-color: #006d77;
+  }
+  
+  #menu nav{
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  #menu nav a{
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #edf6f9;
+  }
+  
+  #menu nav a:last-of-type{
+    margin-right: 0;
+  }
+  #menu nav a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: .15rem;
+    background-color: #ffddd2;
+    margin-top: .2rem;
+    transition: all .5s ease;
+  }
+  
+  #menu nav a:hover::after{
+    width: 100%;
+  }
+  
